@@ -13,7 +13,7 @@ config.key = process.env.BROWSERSTACK_KEY
 // ============
 
 config.specs = [
-    //'../test/specs/android/add-note.spec.js'
+    '../test/specs/android/add-note.spec.js'
 ];
 
 // ============
