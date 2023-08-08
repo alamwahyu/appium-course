@@ -5,6 +5,7 @@ describe('Add Notes', () => {
         await addNoteScreen.skipBtn.click();
         await expect(addNoteScreen.addNoteTxt).toBeDisplayed();
     });
+    //coment
 
     it('add a note, save changes & verify note', async () => {
         await addNoteScreen.addNoteTxt.click();
